@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/icon.png" sizes="57x57" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>KeyBridge</title>     
+</head>
+<body>
+    <div class="contianer">
+        <div class="screen-wrapper">
+            <textarea class="screen" autofocus></textarea>
+        </div>
+        <div class="keyboard-wrapper">
+                <div class="row">
+                    <button data-key="`">`</button>
+                    <button data-key="1">1</button>
+                    <button data-key="2">2</button>
+                    <button data-key="3">3</button>
+                    <button data-key="4">4</button>
+                    <button data-key="5">5</button>
+                    <button data-key="6">6</button>
+                    <button data-key="7">7</button>
+                    <button data-key="8">8</button>
+                    <button data-key="9">9</button>
+                    <button data-key="0">0</button>
+                    <button data-key="-">-</button>
+                    <button data-key="=">=</button>
+                    <button class="backspace-button" data-key="Backspace">
+                        <img src="imgs/backspace.png" alt="backspace">
+                    </button>
+                </div>
+                <div class="row">
+                    <button class="tab-button" data-key="Tab"><img src="imgs/tab.png" alt="tab"></button>
+                    <button data-key="q">q</button>
+                    <button data-key="w">w</button>
+                    <button data-key="e">e</button>
+                    <button data-key="r">r</button>
+                    <button data-key="t">t</button>
+                    <button data-key="y">y</button>
+                    <button data-key="u">u</button>
+                    <button data-key="i">i</button>
+                    <button data-key="o">o</button>
+                    <button data-key="p">p</button>
+                    <button data-key="[">[</button>
+                    <button data-key="]">]</button>
+                    <button class="slace-button" data-key="\">\</button>
+                </div>
+
+                <div class="row">
+                    <button class="caps-button" data-key="CapsLock" ><img src="imgs/lock.png" alt="lock"></button>
+                    <button data-key="a">a</button>
+                    <button data-key="s">s</button>
+                    <button data-key="d">d</button>
+                    <button class="bumps" data-key="f">f</button>
+                    <button data-key="g">g</button>
+                    <button data-key="h">h</button>
+                    <button class="bumps" data-key="j">j</button>
+                    <button data-key="k">k</button>
+                    <button data-key="l">l</button>
+                    <button data-key=";">;</button>
+                    <button data-key="'">'</button>
+                    <button class="enter-button" data-key="Enter"><img src="imgs/left-arrow.png" alt="left-arrow"></button>
+                </div>
+                
+                <div class="row">
+                    <button class="shift-button-left" data-key="Shift">⇧</button>
+                    <button data-key="z">z</button>
+                    <button data-key="x">x</button>
+                    <button data-key="c">c</button>
+                    <button data-key="v">v</button>
+                    <button data-key="b">b</button>
+                    <button data-key="n">n</button>
+                    <button data-key="m">m</button>
+                    <button data-key=",">,</button>
+                    <button data-key=".">.</button>
+                    <button data-key="/">/</button>
+                    <button class="shift-button-right" data-key="Shift">⇧</button>
+                </div>
+
+                <div class="row">
+                    <button class="outer-buttons" data-key="Control">ctrl</button>
+                    <button class="outer-buttons" data-key="Meta"><img src="imgs/windows-logo.png" alt="windows-logo"></button>
+                    <button class="outer-buttons" data-key="Alt">alt</button>
+                    <button class="space-button" data-key=" ">space</button>
+                    <button class="outer-buttons" data-key="Alt">alt</button>
+                    <button class="outer-buttons" data-key="Meta"><img src="imgs/windows-logo.png" alt="windows-logo"></button>
+                    <button class="outer-buttons" data-key="Control">ctrl</button> 
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
